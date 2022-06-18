@@ -1,0 +1,144 @@
+/* Small */
+@media (max-width:660px) {
+  .stats .card {
+    flex-basis: 100%;
+  }
+
+  #About img {
+    margin-top: -50px;
+    bottom: -70px;
+  }
+}
+
+@media (min-width: 768px) {
+
+  .container {
+    width: 750px;
+  }
+
+  #Portfolio .images .image {
+    flex-basis: 25%;
+  }
+}
+
+@media (max-width:809px) {
+  main .carousel .btns {
+    display: none;
+  }
+
+  main .carousel .text {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  main header nav ul {
+    display: none;
+    flex-direction: column;
+    padding: 20px 0;
+    position: fixed;
+    top: 12.5%;
+    left: 0;
+    background-color: rgba(0 0 0 / 0.8);
+    width: 100%;
+  }
+
+  main nav ul a {
+    margin: 5px 20px;
+    display: inline-block;
+  }
+
+  main nav ul a.active {
+    padding-bottom: 10px;
+    width: 100%;
+  }
+
+  main .menu {
+    display: block;
+  }
+
+  main .menu:hover+ul {
+    display: flex;
+  }
+
+  .services .serv {
+    text-align: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+
+  .services .serv i {
+    margin: 0 0 40px 0;
+  }
+
+  .design .image {
+    display: none;
+  }
+
+  .skills-section .testimonials .info {
+    flex-direction: column;
+  }
+
+  .skills-section .testimonials .info img {
+    margin: 0 0 50px;
+  }
+
+  .skills-section .testimonials .info .desc {
+    text-align: center;
+  }
+
+  .subscribe .container {
+    flex-direction: column;
+  }
+
+  .subscribe p {
+    margin: 20px 0;
+    text-align: center;
+  }
+
+  #Contact .contact {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  #Contact input[type="submit"] {
+    bottom: -100px;
+  }
+
+  #Contact form {
+    margin: 0;
+  }
+}
+
+@media (max-width:850px) and (min-width:659px) {
+  .stats .card {
+    flex-basis: 50%;
+  }
+}
+
+@media (min-width:810px) {
+  .services {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+    grid-column-gap: 40px;
+    grid-row-gap: 60px;
+  }
+
+}
+
+/* Medium */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+
+  .skills-section .container>div {
+    flex-basis: 45%;
+  }
+}
+
+/* Large */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
